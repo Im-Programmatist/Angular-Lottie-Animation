@@ -1,0 +1,63 @@
+<router-outlet></router-outlet>
+<div class="container">
+    <div class="card">
+      <div class="card-header">
+        Animation Using Lottie
+      </div>
+      <div class="card-body">
+        <!-- <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        <div class="row">
+          <div class="col-md-3">
+              <ng-lottie [options]="options" (animationCreated)="animationCreated($event)"></ng-lottie>
+          </div>
+          <div class="col-md-3">      
+              <main lottie [options]="options2" (animationCreated)="animationCreated2($event)"></main>
+          </div>
+          <div class="col-md-3">      
+            <main lottie [options]="options3" (animationCreated)="animationCreated3($event)"></main>
+          </div>
+          <div class="col-md-3">
+              <ng-lottie [options]="options4" (animationCreated)="animationCreated4($event)"></ng-lottie>
+          </div>         </div>
+        <div class="row">
+          <div class="col-md-3">
+              <ng-lottie [options]="options5" (animationCreated)="animationCreated5($event)"></ng-lottie>
+          </div>    
+          <div class="col-md-3">
+            <!-- <ng-lottie [options]="options6" (animationCreated)="animationCreated6($event)"></ng-lottie> -->
+            <main lottie [options]="options6" (animationCreated)="animationCreated6($event)"></main>
+          </div>      
+          <div class="col-md-3">      
+            <main lottie [options]="options7" (animationCreated)="animationCreated7($event)"></main>
+          </div>
+          <div class="col-md-3">      
+            <main lottie [options]="options8" (animationCreated)="animationCreated8($event)"></main>
+          </div>          
+        </div>
+        <div class="row">
+          <div class="col-md-3">  
+            <lottie-player slot="end" autoplay loop src="../assets/animation-step.json">
+            </lottie-player>   
+              <!-- <main lottie [options]="options6" (animationCreated)="animationCreated6($event)"></main> -->
+          </div>
+          <div class="col-md-3">      
+            <lottie-player slot="end" autoplay loop src="../assets/animation_bubble.json">
+            </lottie-player>   
+          </div>
+          <div class="col-md-3">      
+            <lottie-player slot="end" autoplay loop src="../assets/animation_ll0rj51v.json">
+            </lottie-player>   
+          </div>
+          <div class="col-md-3">      
+            <lottie-player slot="end" autoplay loop src="../assets/animation_ll0ryccb.json">
+            </lottie-player>   
+          </div>
+          <!-- <div class="col-md-3">      
+            <main lottie [options]="options7" (animationCreated)="animationCreated7($event)"></main>
+          </div>-->         
+        </div>
+      </div>
+    </div>
+</div>
