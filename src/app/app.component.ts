@@ -56,7 +56,7 @@ export class AppComponent {
 
   options6: AnimationOptions = {
     // path: '/assets/animation_ll0rj51v.json',
-    path: '/assets/animation-step6.json',
+    path: '/assets/animation6.json',
   };
 
   animationCreated6(animationItem: AnimationItem): void {
