@@ -4,6 +4,8 @@
 
 ## https://lottiefiles.com/featured?page=100
 
+## https://stackoverflow.com/questions/56825421/install-lottie-player-to-angular
+
 ## Add Lottie Player In Angular
 <pre>
 <code>
